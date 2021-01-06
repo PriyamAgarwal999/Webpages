@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.min.css">
+    <title>Learn Jquery</title>
+    <style type="text/css">
+    select{
+        width:30%;
+    }
+    </style>
+</head>
+<body>
+    <select class="chosen" multiple>
+        <option>India</option>
+        <option>U.S.A</option>
+        <option>Russia</option>
+        <option>England</option>
+        <option>Australia</option>
+        <option>Austria</option>
+        <option>Srilanka</option> 
+        <option>Brazil</option>
+    </select>
+</body>
+<script type="text/javascript">
+    $(".chosen").chosen();
+    </script>
+</html>
